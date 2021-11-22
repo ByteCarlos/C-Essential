@@ -11,6 +11,9 @@ typedef struct{
 
 void jogar();
 void mostrarInfo(Calcular calc);
+int somar(int resposta, Calcular calc);
+int diminuir(int resposta, Calcular calc);
+int multiplicar(int resposta, Calcular calc);
 
 int pontos = 0;
 
