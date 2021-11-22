@@ -104,8 +104,11 @@ void jogar(){
         printf("A operação %d não é reconhecida. \n", calc.operacao);
     }
 
+    //mostrarInfo
+    mostrarInfo(calc);
+
     // Recomeçar o jogo?
-    printf("Deseja continuar jogando? [1 - sim, 0 - não]\n");
+    printf("\nDeseja continuar jogando? [1 - sim, 0 - não]\n");
     int continuar;
     scanf("%d", &continuar);
 
