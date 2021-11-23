@@ -1,29 +1,29 @@
 # Aulas de Programação em C
 
-Módulo 1 - Variáveis
-Módulo 2 - Estruturas de decisão
-Módulo 3 - Instrução Switch
-Módulo 4 - For,While e do While
-Módulo 5 - Tipos numéricos
-Módulo 6 - Tipos alfanuméricos
-Módulo 7 - Tipos booleanos
-Módulo 8 - Operações matemáticas
-Módulo 9 - Vetores e Matrizes
-Módulo 10 - Numeros binários
-Módulo 11 - Funções
-Módulo 12 - Ponteiros
-Módulo 13 - Entrada e Saída
-Módulo 14 - Structs
-Módulo 15 - Union
-Módulo 16 - Enum
-Módulo 17 - Recursividade
-Módulo 18 - Diretivas de Compilação
-Módulo 19 - Bibliotecas úteis
-Módulo 20 - Alocação dinânica de memória
-Módulo 21 - Estrutura de dados
-Módulo 22 - Ordenação de vetores
-Módulo 23 - Busca binária e busca linear
+Módulo 1 - Variáveis<br />
+Módulo 2 - Estruturas de decisão<br />
+Módulo 3 - Instrução Switch<br />
+Módulo 4 - For,While e do While<br />
+Módulo 5 - Tipos numéricos<br />
+Módulo 6 - Tipos alfanuméricos<br />
+Módulo 7 - Tipos booleanos<br />
+Módulo 8 - Operações matemáticas<br />
+Módulo 9 - Vetores e Matrizes<br />
+Módulo 10 - Numeros binários<br />
+Módulo 11 - Funções<br />
+Módulo 12 - Ponteiros<br />
+Módulo 13 - Entrada e Saída<br />
+Módulo 14 - Structs<br />
+Módulo 15 - Union<br />
+Módulo 16 - Enum<br />
+Módulo 17 - Recursividade<br />
+Módulo 18 - Diretivas de Compilação<br />
+Módulo 19 - Bibliotecas úteis<br />
+Módulo 20 - Alocação dinânica de memória<br />
+Módulo 21 - Estrutura de dados<br />
+Módulo 22 - Ordenação de vetores<br />
+Módulo 23 - Busca binária e busca linear<br />
 
-Esses arquivos foram produzidos baseados em Aulas do curso de Programação em C da Geek University.
-Se tiver interrese em algum outro curso de programação visite o site deles que os cursos são muito bons
+Esses arquivos foram produzidos baseados em Aulas do curso de Programação em C da Geek University.<br />
+Se tiver interrese em algum outro curso de programação visite o site deles que os cursos são muito bons<br />
 https://www.geekuniversity.com.br/
