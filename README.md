@@ -24,6 +24,4 @@ Módulo 21 - Estrutura de dados<br />
 Módulo 22 - Ordenação de vetores<br />
 Módulo 23 - Busca binária e busca linear<br />
 
-Esses arquivos foram produzidos baseados em Aulas do curso de Programação em C da Geek University.<br />
-Se tiver interrese em algum outro curso de programação visite o site deles que os cursos são muito bons<br />
-https://www.geekuniversity.com.br/
+Espero ter ajudado :)
