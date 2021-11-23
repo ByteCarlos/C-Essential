@@ -1,8 +1,8 @@
 #include <stdio.h>
 #include <string.h>
 #include <stdlib.h>
-//#include <unistd.h> No Linux/Mac
-#include <windows.h>
+#include <windows.h> //se tiver no Windows Sleep(segundos)
+//#include <unistd.h> se tiver no Linux/Mac sleep(segundos)
 
 typedef struct{
     int codigo;
