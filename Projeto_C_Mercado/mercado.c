@@ -99,6 +99,8 @@ void cadastrarProduto(){
 
     produtos[contador_produto].codigo = (contador_produto + 1);
     contador_produto++;
+    Sleep(2);
+    menu();
 }
 
 void listarProdutos(){
@@ -112,14 +114,18 @@ void listarProdutos(){
         }
     }else{
         printf("Não temos ainda produtos cadastrados.\n");
+        Sleep(2);
+        menu();
     }
+    Sleep(2);
+    menu();
 }
 
 void comprarProduto(){
     if(contador_produto > 0){
         printf("Informe o código do produto que deseja adicionar ao carrinho.\n");
 
-        printf("================= Produtos Disponíveis ==================");
+        printf("================= Produtos Disponíveis ==================\n");
         for(int i = 0; i < contador_produto; i++){
             infoProduto(produtos[i]);
             printf("----------------------------------------------\n");
@@ -188,6 +194,8 @@ void visualizarCarrinho(){
         }
     }else{
         printf("Não temos ainda produtos no carrinho.\n");
+        Sleep(2);
+        menu();
     }
 }
 
