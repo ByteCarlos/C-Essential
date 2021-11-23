@@ -116,7 +116,64 @@ void listarProdutos(){
 }
 
 void comprarProduto(){
-    //vamos implementar
+    if(contador_produto > 0){
+        printf("Informe o código do produto que deseja adicionar ao carrinho.\n");
+
+        printf("================= Produtos Disponíveis ==================");
+        for(int i = 0; i < contador_produto; i++){
+            infoProduto(produtos[i]);
+            printf("----------------------------------------------\n");
+            Sleep(1);
+        }
+        int codigo;
+        scanf("%d", &codigo);
+        getchar();
+
+        int tem_mercado = 0;
+        for(int i = 0; i < contador_produto; i++){
+            if(produtos[i].codigo == codigo){
+                tem_mercado = 1;
+
+                if(contador_carrinho > 0){
+                    int * retorno = temNoCarrinho(codigo);
+
+                    if(retorno[0] == 1){
+                        carrinho[retorno[1]].quantidade++;
+                        printf("Aumentei a quantidade do produto %s já existente no carrinho.\n",
+                                strtok(carrinho[retorno[1]].produto.nome, "\n"));
+                        Sleep(2);
+                        menu();
+                    }else{
+                        Produto p = pegarProdutoPorCodigo(codigo);
+                        carrinho[contador_carrinho].produto = p;
+                        carrinho[contador_carrinho].quantidade = 1;
+                        contador_carrinho++;
+                        printf("O produto %s foi adicionado ao carrinho.\n", strtok(p.nome, "\n"));
+                        Sleep(2);
+                        menu();
+                    }
+
+                }else{
+                    Produto p = pegarProdutoPorCodigo(codigo);
+                    carrinho[contador_carrinho].produto = p;
+                    carrinho[contador_carrinho].quantidade = 1;
+                    contador_carrinho++;
+                    printf("O produto %s foi adicionado ao carrinho.\n", strtok(p.nome, "\n"));
+                    Sleep(2);
+                    menu();
+                }
+
+            }else{
+                printf("Não foi encontrado o código %d\n", codigo);
+                Sleep(2);
+                menu();
+            }
+        }
+    }else{
+        printf("Ainda não existem produtos para vender!\n");
+        Sleep(2);
+        menu();
+    }
 }
 
 void visualizarCarrinho(){
