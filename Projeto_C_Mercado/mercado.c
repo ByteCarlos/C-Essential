@@ -125,11 +125,7 @@ void comprarProduto(){
     if(contador_produto > 0){
         printf("Informe o código do produto que deseja adicionar ao carrinho.\n");
 
-<<<<<<< HEAD
         printf("================= Produtos Disponíveis ==================\n");
-=======
-        printf("================= Produtos Disponíveis ==================");
->>>>>>> b951bb296a643114299f2dfbe9e7d7cd9f14f839
         for(int i = 0; i < contador_produto; i++){
             infoProduto(produtos[i]);
             printf("----------------------------------------------\n");
