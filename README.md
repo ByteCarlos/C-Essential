@@ -23,5 +23,3 @@ Módulo 20 - Alocação dinânica de memória<br />
 Módulo 21 - Estrutura de dados<br />
 Módulo 22 - Ordenação de vetores<br />
 Módulo 23 - Busca binária e busca linear<br />
-
-Espero ter ajudado :)
