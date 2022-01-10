@@ -1,25 +1,25 @@
-# Programação em C
+# Programming in C
 
-Módulo 1 - Variáveis<br />
-Módulo 2 - Estruturas de decisão<br />
-Módulo 3 - Instrução Switch<br />
-Módulo 4 - For,While e do While<br />
-Módulo 5 - Tipos numéricos<br />
-Módulo 6 - Tipos alfanuméricos<br />
-Módulo 7 - Tipos booleanos<br />
-Módulo 8 - Operações matemáticas<br />
-Módulo 9 - Vetores e Matrizes<br />
-Módulo 10 - Numeros binários<br />
-Módulo 11 - Funções<br />
-Módulo 12 - Ponteiros<br />
-Módulo 13 - Entrada e Saída<br />
-Módulo 14 - Structs<br />
-Módulo 15 - Union<br />
-Módulo 16 - Enum<br />
-Módulo 17 - Recursividade<br />
-Módulo 18 - Diretivas de Compilação<br />
-Módulo 19 - Bibliotecas úteis<br />
-Módulo 20 - Alocação dinânica de memória<br />
-Módulo 21 - Estrutura de dados<br />
-Módulo 22 - Ordenação de vetores<br />
-Módulo 23 - Busca binária e busca linear<br />
+Module 1 - Variables<br />
+Module 2 - Decision Structures<br />
+Module 3 - Switch Instruction<br />
+Module 4 - For,While and the While<br />
+Module 5 - Numeric Types<br />
+Module 6 - Alphanumeric Types<br />
+Module 7 - Boolean Types<br />
+Module 8 - Mathematical Operations<br />
+Module 9 - Vectors and Matrices<br />
+Module 10 - Binary numbers<br />
+Module 11 - Functions<br />
+Module 12 - Pointers<br />
+Module 13 - Input and Output<br />
+Module 14 - Structs<br />
+Module 15 - Union<br />
+Module 16 - Enum<br />
+Module 17 - Recursiveness<br />
+Module 18 - Build Directives<br />
+Module 19 - Useful Libraries<br />
+Module 20 - Dynamic Memory Allocation<br />
+Module 21 - Data Structure<br />
+Module 22 - Ordering vectors<br />
+Module 23 - Binary Search and Linear Search<br />
